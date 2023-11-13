@@ -25,3 +25,12 @@ print(y.lower())
 
         #upper-- stings to upper case
 print(y.upper())
+
+        #replace  - replaces a string with another string
+z = "MAYAKA"
+print(z.replace("M", "A"))
+
+        #Split - divides a a string into substrings
+w = "mayaka'caleb"
+
+print(w.split("'"))  #divides that the instance of '
