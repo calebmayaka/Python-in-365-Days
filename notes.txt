@@ -1,0 +1,1 @@
+python --version   #checking python version in the command line

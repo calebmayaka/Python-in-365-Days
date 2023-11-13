@@ -7,4 +7,12 @@ print(x)
 y = int(250.556566)
 print(y)
 
+a = float(200)
+print(a)      #output is 200.0
+
+b = str(3)
+print(b)
+
+print(type(b))   #prints out the type to be a string
+
 
