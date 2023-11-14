@@ -4,3 +4,7 @@ this_dict = {"color" : "blue", "name" : "caleb", "DOB" : "2002"}
 print(this_dict)
 
 print(this_dict["color"])       #prints the color  -refer using the key name
+
+this_dict2  = {"name" : "caleb Mayaka Ombogo"}
+print(this_dict2["name"])
+
