@@ -33,7 +33,14 @@ def my_function(*kids):
 
 my_function("caleb", "ombogo", "mayaka")
 
+# a list can be passed in a function
+def my_function(food):
+  for x in food:
+    print(x)
 
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
 
 
 
