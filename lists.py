@@ -17,3 +17,15 @@ this_constructorlist = list(("mayaka", "ombogo", "caleb", "21"))
 
 print(this_constructorlist[2])
 
+#changing a range of items
+
+list_1 = [1,2,3,4,5]
+list_1[2:4] = ["caleb", "Mayaka", "Ombogo"]
+
+print(list_1)
+
+# remove items  at specific index
+
+list_1.pop(0)
+print(list_1)
+
