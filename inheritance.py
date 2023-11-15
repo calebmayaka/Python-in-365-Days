@@ -1,28 +1,27 @@
-"""Inheritance allows us to define a class that inherits all the methods and properties from another class.
+# System that has managers and developers as employees
+class Employee:
+    raise_new = 1.04  # Note: I changed the class name to follow Python naming conventions
 
-Parent class is the class being inherited from, also called base class.
+    def __init__(self, firstname, lastname, pay):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.pay = pay
+        self.fullname = firstname + " " + lastname
 
-Child class is the class that inherits from another class, also called derived class.
-reduces code redundancy   """
+    def printfullname(self):
+        return "{} {}".format(self.firstname, self.lastname)
 
-#system that has managers and developers as employees
-class employee:
-    def __init__(default,firstname,lastname,pay):
-        default.firstname = firstname
-        default.lastname = lastname
-        default.pay = pay
-        default.fullname = firstname + " " + lastname
+    def apply_raise(self):
+        self.pay = int(self.raise_new * self.pay)
 
-    #method to print full name
+class Developer(Employee):  # Inheriting from Employee
+    def __init__(self, firstname, lastname, pay, prog_lang):
+        super().__init__(firstname, lastname, pay)
+        self.prog_lang = prog_lang
 
-    def printfullname(default):
-       return "{} {}" .format(default.firstname, default.lastname)
-    
-employee1  = employee("caleb","Mayaka", 380000)
+# Instances of Developer class
+employee1 = Developer("Caleb", "Mayaka", 380000, "Python")
+employee2 = Developer("Ombogo", "Mayaka", 380000, "JavaScript")
 
-print(employee1.fullname)
-print(employee1.printfullname())
-
-    
-        
-
+# Print statements outside the class
+print(employee1.firstname, employee1.lastname)
