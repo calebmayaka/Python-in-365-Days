@@ -3,10 +3,10 @@
 number of positional arguments. When a function parameter is 
 preceded by an asterisk (*), it collects all the positional arguments into a tuple within the function."""
 
-# def function_1(*kids):
-#     print("the youngest kid is ", kids[2])
+def function_1(*kids):
+    print("the youngest kid is ", kids[2])
 
-# function_1("caleb", "Mayaka", "Ombogo")
+function_1("caleb", "Mayaka", "Ombogo")
 
 
 def my_function2(*kids):                
