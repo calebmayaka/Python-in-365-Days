@@ -1,31 +1,31 @@
 # # #uing the arbitratry arguements - used wneh you dont know how many parameters you are gonna pass to your function
-# # def function1(*name):
-# #     print("name is", name[0])
+# def function1(*name):
+#     print("name is", name[0])
 
-# # function1("caleb","mayaka","ombogo")
+# function1("caleb","mayaka","ombogo")
 
-# # #arbitrary keywords
+# #arbitrary keywords
 
-# # def function2(**names):
-# #     print("his first name is", names["fname"])
+# def function2(**names):
+#     print("his first name is", names["fname"])
     
-# # function2(fname = "caleb", school = "eksa")
+# function2(fname = "caleb", school = "eksa")
 
-# # # assignemnt operators
+# # assignemnt operators
 
-# # ass1 = 100
-# # ass1 = ass1 + 1
-# # ass1 +-1
-# # ass1 = ass1 * 1
-# # ass1 /= 1
+# ass1 = 100
+# ass1 = ass1 + 1
+# ass1 +-1
+# ass1 = ass1 * 1
+# ass1 /= 1
 
-    #unction in birthday
-# def birthday(name, yob):
-#     print(f"Happy name is {name} your yob is {yob}")
+    #function in birthday
+def birthday(name, yob):
+    print(f"Happy name is {name} your yob is {yob}")
 
-# input_name = str(input("enter your name: "))
-# input_yob = int(input("enter your year ob birth: "))
-# birthday(input_name,input_yob)
+input_name = str(input("enter your name: "))
+input_yob = int(input("enter your year ob birth: "))
+birthday(input_name,input_yob)
 
     # book program using classes
 
