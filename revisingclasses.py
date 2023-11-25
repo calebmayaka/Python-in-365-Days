@@ -18,8 +18,11 @@ class employee:
         return employee.age
     
 input_name = str(input("Enter your name: "))
+
 input_town = str(input("Enter your town: "))
+
 input_dob = int(input("Enter your dob: "))
+
 input_uni = str(input("Enter your university: "))
 
 
