@@ -1,7 +1,10 @@
 
 class employee:
+    
     age = 0
+    
     number_of_students = 0
+    
     def __init__(self,name,town,dob,university):
         self.name = name
         self.town = town
