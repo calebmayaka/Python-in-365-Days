@@ -8,6 +8,11 @@ class book:
     
 input_name = str(input("enter the book name:"))
 
-input_name = str(input("enter the book name:"))
+input_author = str(input("enter the book name:"))
 
-        
+book1 = book(input_name,input_author)
+
+print(book1.name)
+
+print(book1.Details())
+
