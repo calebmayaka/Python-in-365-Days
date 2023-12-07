@@ -1,7 +1,7 @@
 class book:
     
     book_counter = 0
-    def _init__(self,name,author):
+    def __init__(self,name,author):
         self.name = name
         self.author = author
     
@@ -17,6 +17,7 @@ input_author = str(input("enter book's name: "))
 book1 = book(input_name,input_author)
 
 print(book1.nameandauthor())
+print(book.book_counter)
 
         
 
