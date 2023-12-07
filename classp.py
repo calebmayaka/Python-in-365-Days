@@ -10,7 +10,11 @@ class book:
     def nameandauthor(self):
         print(f"the name of the book is {self.name} and the author is {self.author}")
     
-book1 = 
+
+input_name = str(input("enter book's name: "))
+input_author = str(input("enter book's name: "))
+
+ook1 = book(input_name,input_author)
         
 
         
