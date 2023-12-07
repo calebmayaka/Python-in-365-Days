@@ -14,7 +14,10 @@ class book:
 input_name = str(input("enter book's name: "))
 input_author = str(input("enter book's name: "))
 
-ook1 = book(input_name,input_author)
+book1 = book(input_name,input_author)
+
+print(book1.nameandauthor())
+
         
 
         
