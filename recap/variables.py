@@ -22,3 +22,5 @@ print(a,b,c)
 # constants - in python thereare no specific method of defining constants but theey are indicated by all caps variable names
 
 PI  = 3.142
+
+print(f"the value oF PI is {PI}")
