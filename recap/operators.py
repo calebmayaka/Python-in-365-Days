@@ -8,9 +8,10 @@ addition = x + y
 subtraction = x - y
 division  = x / y
 multiplication = x * y
-modulus = y // x*y
-
-print(addition,subtraction,division,multiplication,modulus)
+floordivision = y // x*y
+exponentiation = x ** y
+modulus = y // x
+print(addition,subtraction,division,multiplication,modulus,floordivision,exponentiation)
 
 # logical operators
 
