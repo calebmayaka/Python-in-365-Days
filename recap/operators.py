@@ -56,5 +56,5 @@ print(not a)    # False
     """
     
 x = 5
-x += 1      #increments
+x += 1      #increments by 1
 print(x)
