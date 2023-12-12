@@ -8,8 +8,9 @@ addition = x + y
 subtraction = x - y
 division  = x / y
 multiplication = x * y
+modulus = y // x*y
 
-print(addition,subtraction,division,multiplication)
+print(addition,subtraction,division,multiplication,modulus)
 
 # logical operators
 
