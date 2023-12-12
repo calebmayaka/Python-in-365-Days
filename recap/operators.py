@@ -43,4 +43,18 @@ print(a and b)  # False
 print(a or b)   # True
 print(not a)    # False
 
-#
+# assignment operators
+"""
+= (Assignment)
++= (Add and assign)
+-= (Subtract and assign)
+*= (Multiply and assign)
+/= (Divide and assign)
+%= (Modulus and assign)
+**= (Exponentiate and assign)
+//= (Floor divide and assign)
+    """
+    
+x = 5
+x += 1      #increments
+print(x)
