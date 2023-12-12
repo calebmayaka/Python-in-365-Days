@@ -7,3 +7,8 @@ float_number = 2.6
 print(type(x))
 print(type(name_student))
 print(type(float_number))
+
+# variable reassignment - value of x is replaced
+x  = 250
+
+print(x)
