@@ -13,13 +13,34 @@ exponentiation = x ** y
 modulus = y // x
 print(addition,subtraction,division,multiplication,modulus,floordivision,exponentiation)
 
-# logical operators
+# comparison operators
 
-"""== -  this is for checking whether they are equal
-        =! - returns true if they are not equal """
+"""
+== (Equal to)
+!= (Not equal to)
+< (Less than)
+> (Greater than)
+<= (Less than or equal to)
+>= (Greater than or equal to)
 
+"""
 while x == y:
     print("they are equal")
 else:
     print("they arent equal")
+    
+# Logical Operators
 
+    """
+and (Logical AND)
+or (Logical OR)
+not (Logical NOT)
+    
+    """
+a = True
+b = False
+print(a and b)  # False
+print(a or b)   # True
+print(not a)    # False
+
+#
