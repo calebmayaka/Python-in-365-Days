@@ -7,4 +7,7 @@ if 0 < current_time <= 10:
     print(f"Hello {firstname_student} how are you doing ")
 else:
     print(f"Hello {secondname_student} how are you doing ")
+    
+
+
         
