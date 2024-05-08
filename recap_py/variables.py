@@ -13,3 +13,9 @@ A = 1000
 str1 = "mayaka"
 str2 = 'caleb'
 print( f"my name is {str1} {str2}")
+
+# defining multiple variables
+
+x,y,z = "mayaka", "caleb", "ombogo"
+
+print(f"my name is {x} {y} {z}")
