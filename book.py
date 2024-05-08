@@ -1,6 +1,7 @@
 class book:
     increment = 1.10
     books_available  = 0
+
     def __init__(self,author,name,price,pubdate):
         self.author = author
         self.name = name
