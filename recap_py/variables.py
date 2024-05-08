@@ -3,3 +3,13 @@ a = 250 # interger
 b = "caleb" # string
 c = 3.142   # float
 d =  True  # boolean
+
+# variable names are case sensitive -  a will not overwrite A
+
+A = 1000
+
+# strings can be defined using both single or double quotes
+
+str1 = "mayaka"
+str2 = 'caleb'
+print( f"my name is {str1} {str2}")
