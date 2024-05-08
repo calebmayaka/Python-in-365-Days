@@ -19,3 +19,9 @@ print( f"my name is {str1} {str2}")
 x,y,z = "mayaka", "caleb", "ombogo"
 
 print(f"my name is {x} {y} {z}")
+\
+# one value can be assigned to multiple variable names
+
+s = f = g = "callycalex"
+
+print(s,f,g)
