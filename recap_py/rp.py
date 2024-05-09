@@ -34,4 +34,23 @@ u=i=o = "callycalex"
 
 print(u,i,o)
 
-#
+# strings
+
+A = "mayaka"  # variables are case sensitive hence A and a are different variables
+B ='mayaka'
+print(A,B)
+
+str_1 = "my name is mayaka ombogo and i love writing cod_e"
+
+if  "code" in str_1:
+    print("the word code is present")
+else: 
+    print( " the word code is not present")
+
+
+
+
+if  "code" not in str_1:
+    print("the word code is present")
+else: 
+    print( " the word code is not present")
