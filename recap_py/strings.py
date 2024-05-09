@@ -26,3 +26,6 @@ if "free" in txt:
     print("Yes, 'free' is present.")
 else:
     print("free is not present")
+
+
+
