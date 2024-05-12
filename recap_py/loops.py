@@ -4,12 +4,10 @@
 #     print(your_name)
 #     counter = counter + 1
 
-list1 = ["caleb", "mayaka", "ombogo"]
+list1 = ["caleb"]
 
 for caleb in list1:
     print("Caleb is present")
-else: 
-    print("caleb is absent")
      
 
     
