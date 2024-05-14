@@ -2,9 +2,13 @@
 """lists use square brackets
     they are indexed 
     they are ordered and changaeble
-        a list can contain items from multiple data types"""
+        a list can contain items from multiple data types""" # docstring
 
 this_list = ["caleb", 2]
+this_list3 = ["mayaka", "simwamu", 2]
+
+print(this_list3)
+print(this_list3[1])
 
 print(this_list)        #prints the list
 print(this_list[1])     #printing the first object in the list -index starts at 0
