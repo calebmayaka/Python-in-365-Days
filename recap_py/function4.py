@@ -23,4 +23,15 @@ greetings("caleb", "Morning")
 greetings("mayaka", "afternoon")
 greetings("ombogo", "evening")
 
+# a list can be passed in a function
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+
+
     
