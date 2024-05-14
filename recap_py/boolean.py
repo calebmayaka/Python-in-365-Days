@@ -25,3 +25,7 @@ print(bool(a))
 w = 0
 
 print(bool(w))
+
+# we can design functions to return boolean value
+
+# t
