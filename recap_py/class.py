@@ -1,3 +1,6 @@
+import random as rd
+u  = rd.random()
+print(u)
 # classes are blueprints for creating objects
 # defined by the class keyword
 
@@ -34,3 +37,14 @@ location_input = str(input("enter your location: "))
 employee_2 = employee2(name_input, lang_input, location_input)
 
 employee_2.print_info()
+
+class inheritance_1:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def print_alldetails(self):
+        print(f"my name is {self.name}  and i ama {self.age} years old")
+
+class inheritance_2(inheritance_1):
+    def __init__(self)
