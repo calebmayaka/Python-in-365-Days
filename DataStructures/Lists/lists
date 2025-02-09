@@ -1,0 +1,46 @@
+# Creating a sample list
+my_list = [10, 20, 30, 40, 50]
+
+# 1. append(): Adds an element to the end of the list
+my_list.append(60)
+print("append(60):", my_list)  # [10, 20, 30, 40, 50, 60]
+
+# 2. extend(): Adds multiple elements to the end of the list
+my_list.extend([70, 80])
+print("extend([70, 80]):", my_list)  # [10, 20, 30, 40, 50, 60, 70, 80]
+
+# 3. insert(): Inserts an element at a specific index
+my_list.insert(2, 25)
+print("insert(2, 25):", my_list)  # [10, 20, 25, 30, 40, 50, 60, 70, 80]
+
+# 4. remove(): Removes the first occurrence of a value
+my_list.remove(30)
+print("remove(30):", my_list)  # [10, 20, 25, 40, 50, 60, 70, 80]
+
+# 5. pop(): Removes and returns an element by index (default last)
+removed_element = my_list.pop(3)
+print("pop(3):", my_list, "| Removed:", removed_element)  # [10, 20, 25, 50, 60, 70, 80] | Removed: 40
+
+# 6. index(): Returns the index of the first occurrence of a value
+index_50 = my_list.index(50)
+print("index(50):", index_50)  # 3
+
+# 7. count(): Counts occurrences of a value
+count_20 = my_list.count(20)
+print("count(20):", count_20)  # 1
+
+# 8. sort(): Sorts the list in ascending order
+my_list.sort()
+print("sort():", my_list)  # [10, 20, 25, 50, 60, 70, 80]
+
+# 9. reverse(): Reverses the list
+my_list.reverse()
+print("reverse():", my_list)  # [80, 70, 60, 50, 25, 20, 10]
+
+# 10. copy(): Creates a shallow copy of the list
+copy_list = my_list.copy()
+print("copy():", copy_list)  # [80, 70, 60, 50, 25, 20, 10]
+
+# 11. clear(): Removes all elements from the list
+my_list.clear()
+print("clear():", my_list)  # []
